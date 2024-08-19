@@ -1,0 +1,393 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.newsflex{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: azure;
+}
+.flex1{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+#img6{
+    border: 4rem solid white;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 15rem;
+    padding: 0rem 1.5rem;
+}
+.datetxt{
+    font-size: 3rem;
+    padding-bottom: .8rem;
+    color: gray;
+}
+.heading{
+    font-size: 6rem;
+    text-align: center;
+    padding: 4rem 0rem;
+    background-color: white;
+}
+.about{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem;
+}
+h3{
+    margin-left: 1rem;
+    padding: 2rem 0rem;
+    font-size: 5rem;
+    color: black;
+}
+.about p{
+    padding: 2rem 0rem;
+    font-size: 4rem;
+    color: gray;
+    margin-left: 1rem;
+}
+.about button{
+    font-size: 3rem;
+    padding: 3.5rem 0rem;
+    width: 28%;
+    border-radius: 1.6rem;
+    border: none;
+    margin-left: 3rem;
+}
+#covid, #beauty{
+    border-top: 2rem solid rgba(195, 223, 10, 0.662) ;
+    border-left: 2rem solid rgb(194, 223, 10, 0.662) ;
+    border-right: 2rem solid rgb(194, 223, 10, 0.662)  ;
+}
+#crypto{
+    border-top: 2rem solidrgb(212, 24, 184, 0.662) ;
+    border-left: 2rem solid rgb(212, 24, 184, 0.662) ;
+    border-right: 2rem solid rgb(212, 24, 184, 0.662);
+}
+#fast{
+    border-top: 2rem solid rgb(13, 228, 128,0.662) ;
+    border-left: 2rem solid  rgb(13, 228, 128,0.662);
+    border-right: 2rem solid  rgb(13, 228, 128,0.662) ;
+}
+#gym, #marriage{
+    border-top: 2rem solid rgb(25, 25, 228, 0.662) ;
+    border-left: 2rem solid rgb(25, 25, 228, 0.662) ;
+    border-right: 2rem solid rgb(25, 25, 228, 0.662) ;
+}
+#metro{
+    border-top: 2rem solid rgb(245, 149, 4, 0.662) ;
+    border-left: 2rem solid rgb(245, 149, 4, 0.662) ;
+    border-right: 2rem solid rgb(245, 149, 4, 0.662) ;
+}
+.footer{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.29);
+}
+.footer1{
+    /* margin-top: 1rem; */
+    border-top: .21rem solid black;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+}
+.footer h3{
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+    color: black;
+}
+.footerp{
+    color: rgba(0, 0, 0, 0.872);
+    font-size: 3rem;
+}
+.footerby{
+    color: rgb(90, 88, 88);
+    font-size: 3rem;
+}
+.f{
+    padding: 2rem 2rem;
+    border-top: .031rem solid black;
+}
+/* fotter 1 part complete */
+
+.footerflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.newslogo{
+    width: 9rem;
+    padding: 2rem 0rem;
+}
+.subs{
+    margin: auto;
+    font-size: 3rem;
+    color: gray;
+}
+.socialflex{
+    margin: auto;
+    padding: 2rem 0rem;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.socialicon{
+    width: 5rem;
+}
+#footerpara{
+    margin: auto;
+    padding: 2rem 0rem;
+    font-size: 4rem;
+    color: gray;
+}
+/* end footer */
+@media screen and (max-width:1000px) {
+    .newsflex{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+    .flex1, .flex2{
+        width: 90%;
+    }
+    h3{
+        font-size:3rem;
+    }
+    .about p{
+        font-size: 2rem;
+    }
+    .about button{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .about{
+        width: 100%;
+    }
+
+    /* footer */
+    #footerpara{
+        font-size: 1.3rem;
+    }
+    .subs{
+        font-size: 1rem;
+    }
+    .socialicon{
+        width: 2rem;
+    }
+    .newslogo{
+        width: 5rem;
+    }
+    .footerp{
+        font-size: 1.5rem;
+    }
+    .footerby{
+        font-size: 1.2rem;
+    }
+    .footer h3{
+        font-size: 2rem;
+    }
+    #covid, #beauty{
+        border-top: .8rem solid rgba(195, 223, 10, 0.662) ;
+        border-left: .8rem solid rgb(194, 223, 10, 0.662) ;
+        border-right: .8rem solid rgb(194, 223, 10, 0.662)  ;
+    }
+    #crypto{
+        border-top: .8rem solidrgb(212, 24, 184, 0.662) ;
+        border-left: .8rem solid rgb(212, 24, 184, 0.662) ;
+        border-right: .8rem solid rgb(212, 24, 184, 0.662);
+    }
+    #fast{
+        border-top: .8 solid rgb(13, 228, 128,0.662) ;
+        border-left: .8rem solid  rgb(13, 228, 128,0.662);
+        border-right: .8rem solid  rgb(13, 228, 128,0.662) ;
+    }
+    #gym, #marriage{
+        border-top: .8rem solid rgb(25, 25, 228, 0.662) ;
+        border-left: .8rem solid rgb(25, 25, 228, 0.662) ;
+        border-right: .8rem solid rgb(25, 25, 228, 0.662) ;
+    }
+    #metro{
+        border-top: .8rem solid rgb(245, 149, 4, 0.662) ;
+        border-left: .8rem solid rgb(245, 149, 4, 0.662) ;
+        border-right: .8rem solid rgb(245, 149, 4, 0.662) ;
+    }
+}
+
+
+@media screen and (max-width:1550px) {
+    .heading{
+        font-size: 4rem;
+    }
+    .datetxt{
+        font-size: 2rem;
+    }
+    h3{
+        font-size:2.5rem;
+    }
+    .about p{
+        font-size: 1.5rem;
+    }
+    .about button{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .about{
+        width: 100%;
+    }
+
+    /* footer */
+    #footerpara{
+        font-size: 1.3rem;
+    }
+    .subs{
+        font-size: 1rem;
+    }
+    .socialicon{
+        width: 2rem;
+    }
+    .newslogo{
+        width: 5rem;
+    }
+    .footerp{
+        font-size: 1.5rem;
+    }
+    .footerby{
+        font-size: 1.2rem;
+    }
+    .footer h3{
+        font-size: 2rem;
+    }
+
+    #covid, #beauty{
+        border-top: 1rem solid rgba(195, 223, 10, 0.662) ;
+        border-left: 1rem solid rgb(194, 223, 10, 0.662) ;
+        border-right: 1rem solid rgb(194, 223, 10, 0.662)  ;
+    }
+    #crypto{
+        border-top: 1rem solidrgb(212, 24, 184, 0.662) ;
+        border-left: 1rem solid rgb(212, 24, 184, 0.662) ;
+        border-right: 1rem solid rgb(212, 24, 184, 0.662);
+    }
+    #fast{
+        border-top: 1rem solid rgb(13, 228, 128,0.662) ;
+        border-left: 1rem solid  rgb(13, 228, 128,0.662);
+        border-right: 1rem solid  rgb(13, 228, 128,0.662) ;
+    }
+    #gym, #marriage{
+        border-top: 1rem solid rgb(25, 25, 228, 0.662) ;
+        border-left: 1rem solid rgb(25, 25, 228, 0.662) ;
+        border-right: 1rem solid rgb(25, 25, 228, 0.662) ;
+    }
+    #metro{
+        border-top: 1rem solid rgb(245, 149, 4, 0.662) ;
+        border-left: 1rem solid rgb(245, 149, 4, 0.662) ;
+        border-right: 1rem solid rgb(245, 149, 4, 0.662) ;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .newsflex{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+    .heading{
+        font-size: 2.5rem;
+    }
+    .datetxt{
+        font-size: 1rem;
+    }
+    .flex1, .flex2{
+        width: 90%;
+    }
+    h3{
+        font-size:1.5rem;
+    }
+    .about p{
+        font-size: 1rem;
+    }
+    .about button{
+        font-size: .5rem;
+        padding: 1rem;
+    }
+    .about{
+        width: 100%;
+    }
+
+    /* footer */
+    #footerpara{
+        font-size: .8rem;
+    }
+    .subs{
+        font-size: .5rem;
+    }
+    .socialicon{
+        width: 1rem;
+    }
+    .newslogo{
+        width: 3rem;
+    }
+    .footerp{
+        font-size: 1rem;
+    }
+    .footerby{
+        font-size: .8rem;
+    }
+    .footer h3{
+        font-size: 1rem;
+    }
+    #covid, #beauty{
+        border-top: .5rem solid rgba(195, 223, 10, 0.662) ;
+        border-left: .5rem solid rgb(194, 223, 10, 0.662) ;
+        border-right: .5rem solid rgb(194, 223, 10, 0.662)  ;
+    }
+    #crypto{
+        border-top: .5rem solidrgb(212, 24, 184, 0.662) ;
+        border-left: .5rem solid rgb(212, 24, 184, 0.662) ;
+        border-right: .5rem solid rgb(212, 24, 184, 0.662);
+    }
+    #fast{
+        border-top: .5rem solid rgb(13, 228, 128,0.662) ;
+        border-left: .5rem solid  rgb(13, 228, 128,0.662);
+        border-right: .5rem solid  rgb(13, 228, 128,0.662) ;
+    }
+    #gym, #marriage{
+        border-top: .5rem solid rgb(25, 25, 228, 0.662) ;
+        border-left: .5rem solid rgb(25, 25, 228, 0.662) ;
+        border-right: .5rem solid rgb(25, 25, 228, 0.662) ;
+    }
+    #metro{
+        border-top: .5rem solid rgb(245, 149, 4, 0.662) ;
+        border-left: .5rem solid rgb(245, 149, 4, 0.662) ;
+        border-right: .5rem solid rgb(245, 149, 4, 0.662) ;
+    }
+}
